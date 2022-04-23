@@ -1,5 +1,5 @@
 // 덩치
-const data = require('fs').readFileSync('example.txt').toString().split(/\n/);
+const data = require('fs').readFileSync('/dev/stdin').toString().split(/\n/);
 const dataCount = Number(data[0]);
 // 각 사람의 스탯을 관리할 클래스 선언
 class People {
