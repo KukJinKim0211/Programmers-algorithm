@@ -1,5 +1,5 @@
 // 배수와 약수
-const data = require('fs').readFileSync('example.txt').toString().trim().split(/\n/);
+const data = require('fs').readFileSync('/dev/stdin').toString().trim().split(/\n/);
 data.pop();
 const data2 = [];
 data.forEach(v => {
